@@ -1,5 +1,8 @@
 <script>
   import '../app.sass';
+  import { page } from '$app/stores';
+
+  $: pathname = $page.url.pathname;
 </script>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-mds mb-2">
@@ -19,7 +22,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/">Home</a>
+          <a class="nav-link" class:active="{pathname === '/'}" aria-current="page" href="/">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="https://github.com/mdssjc/mds-notes">Notes</a>
@@ -29,6 +32,9 @@
         </li>
         <li class="nav-item">
           <a class="nav-link" href="https://github.com/mdssjc">Github</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" class:active="{pathname === '/about'}" aria-current="page" href="/about">About</a>
         </li>
       </ul>
     </div>
