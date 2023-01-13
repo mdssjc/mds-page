@@ -14,7 +14,7 @@
       <div class="col">
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">Notes</h5>
+            <div class="card-title fs-5 fw-bold">Notes</div>
             <p class="card-text">Compilação de notas sobre diversos assuntos</p>
             <a href="https://github.com/mdssjc/mds-notes" class="btn btn-primary">ACESSAR</a>
           </div>
@@ -23,7 +23,7 @@
       <div class="col">
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">Book</h5>
+            <div class="card-title fs-5 fw-bold">Book</div>
             <p class="card-text">Livro de Arquitetura de Software e Testes</p>
             <a href="https://github.com/mdssjc/mds" class="btn btn-primary">ACESSAR</a>
           </div>
@@ -32,7 +32,7 @@
       <div class="col">
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">Github</h5>
+            <div class="card-title fs-5 fw-bold">Github</div>
             <p class="card-text">Repositórios dos estudos e projetos</p>
             <a href="https://github.com/mdssjc" class="btn btn-primary">ACESSAR</a>
           </div>
@@ -41,7 +41,7 @@
       <div class="col">
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">Projetos</h5>
+            <div class="card-title fs-5 fw-bold">Projetos</div>
             <ul>
               <li><a href="https://play.google.com/store/apps/details?id=com.github.mdssjc.oblique_strategies" class="btn btn-link">Oblique Strategies</a></li>
             </ul>
