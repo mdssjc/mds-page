@@ -43,7 +43,7 @@
           <div class="card-body">
             <div class="card-title fs-5 fw-bold">Projetos</div>
             <ul>
-              <li><a href="https://play.google.com/store/apps/details?id=com.github.mdssjc.oblique_strategies" class="btn btn-link">Oblique Strategies</a></li>
+              <li><a href="/projects/oblique-strategies" class="btn btn-link">Oblique Strategies</a></li>
             </ul>
           </div>
         </div>
