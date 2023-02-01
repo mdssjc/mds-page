@@ -43,7 +43,8 @@
           <div class="card-body">
             <div class="card-title fs-5 fw-bold">Projetos</div>
             <ul>
-              <li><a href="/projects/oblique-strategies" class="btn btn-link">Oblique Strategies</a></li>
+              <li><a href="/projects/oblique-strategies" class="link-primary">Oblique Strategies</a></li>
+              <li>🌟 <a href="/" class="link-secondary">Pomodoro (Em breve)</a> 🌟</li>
             </ul>
           </div>
         </div>
