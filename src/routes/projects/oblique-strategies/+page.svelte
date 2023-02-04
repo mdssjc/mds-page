@@ -9,7 +9,7 @@
       <a href="https://play.google.com/store/apps/details?id=com.github.mdssjc.oblique_strategies" target="_blank" rel="noreferrer">Instale o aplicativo para o <em>Android</em>!</a>
     </p>
     <p>
-      Em breve, o aplicativo será atualizando com a estrutura em <em>Riverpod</em> e <em>Material Design 3</em>.
+      Atualizado em 04/02/2013.
     </p>
   </div>
 </div>
