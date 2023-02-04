@@ -9,7 +9,7 @@
       <a href="https://play.google.com/store/apps/details?id=com.github.mdssjc.oblique_strategies" target="_blank" rel="noreferrer">Instale o aplicativo para o <em>Android</em>!</a>
     </p>
     <p>
-      Atualizado em 04/02/2013.
+      Atualizado em 04/02/2023.
     </p>
   </div>
 </div>
