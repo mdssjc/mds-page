@@ -16,7 +16,12 @@
 
 <div class="card bg-light mt-2">
   <div class="card-body">
-    Em breve: projetos e estudos
+    <ul>
+      <li>Estudos: Blockchain, Programming Languages (PLT, paradigms, patterns, algorithms, etc) e Creative Coding</li>
+      <li>Mainstream: Java (Spring Boot 2 e 3)</li>
+      <li>Acadêmicas: Haskell and Racket</li>
+      <li>Modernas: Kotlin, Dart, Rust e TypeScript</li>
+    </ul>
   </div>
 </div>
 
