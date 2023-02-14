@@ -18,9 +18,9 @@
   <div class="card-body">
     <ul>
       <li>Estudos: Blockchain, Programming Languages (PLT, paradigms, patterns, algorithms, etc) e Creative Coding</li>
-      <li>Mainstream: Java (Spring Boot 2 e 3)</li>
+      <li>Principais: Java (Spring Boot 2 e 3) e Kotlin</li>
+      <li>Secundárias: Dart, Ruby, Rust e TypeScript</li>
       <li>Acadêmicas: Haskell and Racket</li>
-      <li>Modernas: Kotlin, Dart, Rust e TypeScript</li>
     </ul>
   </div>
 </div>
