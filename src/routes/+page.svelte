@@ -49,6 +49,14 @@
           </div>
         </div>
       </div>
+      <div class="col">
+        <div class="card">
+          <div class="card-body">
+            <div class="card-title fs-5 fw-bold">Dojo</div>
+            <p>Em breve...</p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
