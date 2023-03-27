@@ -23,15 +23,6 @@
       <div class="col">
         <div class="card">
           <div class="card-body">
-            <div class="card-title fs-5 fw-bold">Book</div>
-            <p class="card-text">Livro de Arquitetura de Software e Testes</p>
-            <a href="https://github.com/mdssjc/mds" class="btn btn-primary">ACESSAR</a>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <div class="card-body">
             <div class="card-title fs-5 fw-bold">Github</div>
             <p class="card-text">Repositórios dos estudos e projetos</p>
             <a href="https://github.com/mdssjc" class="btn btn-primary">ACESSAR</a>
@@ -41,19 +32,21 @@
       <div class="col">
         <div class="card">
           <div class="card-body">
-            <div class="card-title fs-5 fw-bold">Projetos</div>
-            <ul>
-              <li><a href="/projects/oblique-strategies" class="link-primary">Oblique Strategies (nova versão 04/02/2023)</a></li>
-              <li>🌟 <a href="/" class="link-secondary">Pomodoro (Em breve)</a> 🌟</li>
-            </ul>
+            <div class="card-title fs-5 fw-bold">Dojo</div>
+            <p>Em breve...</p>
+            <p>GraphQL</p>
           </div>
         </div>
       </div>
       <div class="col">
         <div class="card">
           <div class="card-body">
-            <div class="card-title fs-5 fw-bold">Dojo</div>
-            <p>Em breve...</p>
+            <div class="card-title fs-5 fw-bold">Projetos</div>
+            <ul>
+              <li>🔥 <a href="https://github.com/mdssjc/mds" class="link-primary">Livro (nova atualização 31/03/2023)</a></li>
+              <li><a href="/projects/oblique-strategies" class="link-primary">Oblique Strategies (nova versão 04/02/2023)</a></li>
+              <li><a href="/" class="link-secondary">Pomodoro (Em breve)</a></li>
+            </ul>
           </div>
         </div>
       </div>
