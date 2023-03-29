@@ -2,9 +2,10 @@
 
 <div class="card bg-light">
   <div class="card-body">
-    <p>Nova versão da página, utilizando o SvelteKit.</p>
-    <p>Por que não estou utilizando mais o Flutter para a WEB (versão 3.0)?</p>
-    <p>O principal motivo é o baixo desempenho para páginas simples como blog.</p>
+    <p>Bem-vindo à nossa página!</p>
+    <p>Aqui, você encontrará informações detalhadas sobre nossas experiências e projetos relacionados ao desenvolvimento de software.</p>
+    <p>Nosso objetivo é compartilhar nossas ideias e conhecimentos para ajudá-lo a entender melhor o mundo da programação e a aprimorar suas habilidades na área.</p>
+    <p>Explore nosso conteúdo e sinta-se à vontade para entrar em contato conosco se tiver alguma dúvida ou sugestão.</p>
   </div>
 </div>
 
