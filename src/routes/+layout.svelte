@@ -7,9 +7,9 @@
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-navbar mb-2">
   <div class="container-fluid">
-    <a class="navbar-brand" href="/">
-      <img src="/logo.svg" alt="Logotipo do MDS Page" width="24" height="24" class="d-inline-block align-text-top" />
-      MDS Page</a>
+    <a class="navbar-brand logo" href="/">
+      <img src="/logo.svg" alt="Logotipo do MDS Page" width="24" height="24" />
+      MDS PAGE</a>
     <button
       class="navbar-toggler"
       type="button"
