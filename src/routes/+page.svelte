@@ -44,8 +44,8 @@
           <div class="card-body">
             <div class="card-title fs-5 fw-bold">Projetos</div>
             <ul>
-              <li>🔥 <a href="https://github.com/mdssjc/mds" class="link-primary">Livro (nova atualização 31/03/2023)</a></li>
-              <li><a href="/projects/oblique-strategies" class="link-primary">Oblique Strategies (nova versão 04/02/2023)</a></li>
+              <li>🔥 <a href="https://github.com/mdssjc/mds" class="link-primary fw-bold">Livro (nova atualização 30/04/2023)</a></li>
+              <li><a href="/projects/oblique-strategies" class="link-primary">Oblique Strategies</a></li>
               <li><a href="/" class="link-secondary">Pomodoro (Em breve)</a></li>
             </ul>
           </div>
