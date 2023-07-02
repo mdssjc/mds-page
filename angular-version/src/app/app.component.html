@@ -15,14 +15,33 @@
 
 <mat-sidenav-container class="container" fullscreen (backdropClick)="sidenav.close()">
   <mat-sidenav #sidenav (keydown.escape)="sidenav.close()" disableClose>
-    <button mat-flat-button (click)="sidenav.close()">Toggle</button>
-    <mat-divider></mat-divider>
+    <mat-nav-list>
+      <mat-list-item>
+        <button mat-button routerLink="/"><mat-icon>home</mat-icon>Home</button>
+      </mat-list-item>
+      <mat-list-item>
+        <button mat-button onclick="window.open('https://github.com/mdssjc/mds-notes')">
+          <mat-icon>description</mat-icon>Notes
+        </button>
+      </mat-list-item>
+      <mat-list-item>
+        <button mat-button onclick="window.open('https://github.com/mdssjc/mds')">
+          <mat-icon>menu_book</mat-icon>Book
+        </button>
+      </mat-list-item>
+      <mat-list-item>
+        <button mat-button onclick="window.open('https://github.com/mdssjc')">
+          <mat-icon>inventory_2</mat-icon>Github
+        </button>
+      </mat-list-item>
+      <mat-list-item>
+        <button mat-button routerLink="/about"><mat-icon>about</mat-icon>About</button>
+      </mat-list-item>
+    </mat-nav-list>
   </mat-sidenav>
 
   <mat-sidenav-content>
-    <router-outlet>
-      <app-home class="content"></app-home>
-    </router-outlet>
+    <router-outlet></router-outlet>
     <footer>
       <hr />
       Developed by Marcelo dos Santos :: 2023-2021
