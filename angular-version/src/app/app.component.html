@@ -1,0 +1,31 @@
+<mat-toolbar color="primary">
+  <button mat-flat-button color="primary" (click)="sidenav.open()">
+    <mat-icon>menu</mat-icon>
+  </button>
+
+  <img
+    class="logo"
+    src="./assets/images/logo.svg"
+    alt="Logotipo do MDS Page"
+    width="24"
+    height="24"
+  />
+  <span>MDS PAGE</span>
+</mat-toolbar>
+
+<mat-sidenav-container class="container" fullscreen (backdropClick)="sidenav.close()">
+  <mat-sidenav #sidenav (keydown.escape)="sidenav.close()" disableClose>
+    <button mat-flat-button (click)="sidenav.close()">Toggle</button>
+    <mat-divider></mat-divider>
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+    <router-outlet>
+      <app-home class="content"></app-home>
+    </router-outlet>
+    <footer>
+      <hr />
+      Developed by Marcelo dos Santos :: 2023-2021
+    </footer>
+  </mat-sidenav-content>
+</mat-sidenav-container>
