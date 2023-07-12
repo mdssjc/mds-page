@@ -4,8 +4,8 @@
   </button>
 
   <img
-    class="logo"
-    src="./assets/images/logo.svg"
+    class="logotipo"
+    ngSrc="./assets/images/logo.svg"
     alt="Logotipo do MDS Page"
     width="24"
     height="24"
@@ -13,7 +13,7 @@
   <span>MDS PAGE</span>
 </mat-toolbar>
 
-<mat-sidenav-container class="container" fullscreen (backdropClick)="sidenav.close()">
+<mat-sidenav-container class="base-container" fullscreen (backdropClick)="sidenav.close()">
   <mat-sidenav #sidenav (keydown.escape)="sidenav.close()" disableClose>
     <mat-nav-list>
       <mat-list-item>

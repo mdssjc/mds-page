@@ -1,8 +1,21 @@
+@use '@angular/material' as mat
+
+.p-4
+  padding: 1.5rem
+
+.info
+  margin: 1rem 0
+  padding: 0.25rem
+  border: 1px solid mat.get-color-from-palette(mat.$grey-palette, 400)
+  border-radius: 0.25rem
+  background-color: mat.get-color-from-palette(mat.$grey-palette, 200)
+
 .cards
-  display: flex
-  flex-direction: row
-  flex-wrap: wrap
-  margin: 1rem
-.card
-  margin: 2%
-  flex-basis: 46%
+  margin: 1rem 0
+  padding: 1rem
+  display: grid
+  grid-template-columns: repeat(2, 1fr)
+  grid-gap: 1rem
+  border: 1px solid mat.get-color-from-palette(mat.$grey-palette, 400)
+  border-radius: 0.25rem
+  background-color: mat.get-color-from-palette(mat.$grey-palette, 200)
