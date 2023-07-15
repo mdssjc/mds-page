@@ -1,5 +1,5 @@
 <mat-toolbar color="primary">
-  <button mat-flat-button color="primary" (click)="sidenav.open()">
+  <button mat-icon-button (click)="sidenav.open()">
     <mat-icon>menu</mat-icon>
   </button>
 
@@ -13,8 +13,8 @@
   <span>MDS PAGE</span>
 </mat-toolbar>
 
-<mat-sidenav-container class="base-container" fullscreen (backdropClick)="sidenav.close()">
-  <mat-sidenav #sidenav (keydown.escape)="sidenav.close()" disableClose>
+<mat-sidenav-container class="base-container" (backdropClick)="sidenav.close()">
+  <mat-sidenav #sidenav mode="over" (keydown.escape)="sidenav.close()">
     <mat-nav-list>
       <mat-list-item>
         <button mat-button routerLink="/"><mat-icon>home</mat-icon>Home</button>
