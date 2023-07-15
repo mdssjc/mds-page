@@ -13,30 +13,29 @@
   <span>MDS PAGE</span>
 </mat-toolbar>
 
-<mat-sidenav-container class="base-container" (backdropClick)="sidenav.close()">
+<mat-sidenav-container (backdropClick)="sidenav.close()">
   <mat-sidenav #sidenav mode="over" (keydown.escape)="sidenav.close()">
     <mat-nav-list>
-      <mat-list-item>
-        <button mat-button routerLink="/"><mat-icon>home</mat-icon>Home</button>
-      </mat-list-item>
-      <mat-list-item>
-        <button mat-button onclick="window.open('https://github.com/mdssjc/mds-notes')">
-          <mat-icon>description</mat-icon>Notes
-        </button>
-      </mat-list-item>
-      <mat-list-item>
-        <button mat-button onclick="window.open('https://github.com/mdssjc/mds')">
-          <mat-icon>menu_book</mat-icon>Book
-        </button>
-      </mat-list-item>
-      <mat-list-item>
-        <button mat-button onclick="window.open('https://github.com/mdssjc')">
-          <mat-icon>inventory_2</mat-icon>Github
-        </button>
-      </mat-list-item>
-      <mat-list-item>
-        <button mat-button routerLink="/about"><mat-icon>about</mat-icon>About</button>
-      </mat-list-item>
+      <a mat-list-item routerLink="/">
+        <mat-icon>home</mat-icon>
+        <span>Home</span>
+      </a>
+      <a mat-list-item href="https://github.com/mdssjc/mds-notes">
+          <mat-icon>description</mat-icon>
+        <span>Notes</span>
+      </a>
+      <a mat-list-item href="https://github.com/mdssjc/mds">
+        <mat-icon>menu_book</mat-icon>
+        <span>Book</span>
+      </a>
+      <a mat-list-item hwref="https://github.com/mdssjc">
+        <mat-icon>inventory_2</mat-icon>
+        <span>Github</span>
+      </a>
+      <a mat-list-item routerLink="/about">
+        <mat-icon>info</mat-icon>
+        <span>About</span>
+      </a>
     </mat-nav-list>
   </mat-sidenav>
 
