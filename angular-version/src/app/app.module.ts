@@ -13,9 +13,10 @@ import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
 import {HomeComponent} from './home/home.component';
 import {NgOptimizedImage} from "@angular/common";
+import { ObliqueStrategiesComponent } from './projects/oblique-strategies/oblique-strategies.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, AboutComponent],
+  declarations: [AppComponent, HomeComponent, AboutComponent, ObliqueStrategiesComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
