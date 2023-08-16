@@ -2,14 +2,15 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
-import {ObliqueStrategiesComponent} from "./projects/oblique-strategies/oblique-strategies.component";
+import { ObliqueStrategiesComponent } from "./projects/oblique-strategies/oblique-strategies.component";
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'about', component: AboutComponent },
-  { path: 'projects', children: [
-    { path: 'oblique-strategies', component: ObliqueStrategiesComponent },
-  ]}
+  {
+    path: 'projects',
+    children: [{ path: 'oblique-strategies', component: ObliqueStrategiesComponent }]
+  }
 ];
 
 @NgModule({
