@@ -1,6 +1,6 @@
 # mds-page
 
-Repositório da página MDS Page.
+Repositório do desenvolvimento da página MDS em _Flutter_.
 
 ## Funcionalidades
 
