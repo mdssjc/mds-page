@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:mds_page/presentation/pages/main_page.dart';
 
 void main() => runApp(const MyApp());
 
@@ -74,12 +75,7 @@ class MyApp extends StatelessWidget {
             ],
           ),
         ),
-        body: Container(
-          color: Colors.white,
-          child: const Center(
-            child: Text('Em construção...'),
-          ),
-        ),
+        body: const MainPage(),
       ),
     );
   }
