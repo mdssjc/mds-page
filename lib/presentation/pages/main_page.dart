@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:mds_page/presentation/pages/widgets/home_card.dart';
+import 'package:mds_page/presentation/pages/widgets/news_card.dart';
 
 class MainPage extends StatelessWidget {
   const MainPage({super.key});
@@ -13,55 +15,8 @@ class MainPage extends StatelessWidget {
       child: GridView.count(
         crossAxisCount: width >= 600 ? 2 : 1,
         children: const [
-          Card(
-            child: SingleChildScrollView(
-              child: Column(
-                mainAxisSize: MainAxisSize.min,
-                children: [
-                  ListTile(
-                    title: Text('Home'),
-                    leading: Icon(Icons.home),
-                  ),
-                  SizedBox(height: 2),
-                  Padding(
-                    padding: EdgeInsets.all(8.0),
-                    child: Text(
-                      '''Bem-vindo à nossa página!
-                  
-              Aqui, você encontrará informações detalhadas sobre nossas experiências e projetos relacionados ao desenvolvimento de software.
-              
-              Nosso objetivo é compartilhar nossas ideias e conhecimentos para ajudá-lo a entender melhor o mundo da programação e a aprimorar suas habilidades na área.
-              
-              Explore nosso conteúdo e sinta-se à vontade para entrar em contato conosco se tiver alguma dúvida ou sugestão. ''',
-                      textAlign: TextAlign.justify,
-                    ),
-                  ),
-                ],
-              ),
-            ),
-          ),
-          Card(
-            child: SingleChildScrollView(
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                mainAxisSize: MainAxisSize.min,
-                children: [
-                  ListTile(
-                    title: Text('News'),
-                    leading: Icon(Icons.newspaper),
-                  ),
-                  SizedBox(height: 2),
-                  Padding(
-                    padding: EdgeInsets.all(8.0),
-                    child: Text(
-                      '''(##/##) Nova versão da página MDS: em Flutter.
-                      ''',
-                    ),
-                  ),
-                ],
-              ),
-            ),
-          ),
+          HomeCard(),
+          NewsCard(),
           Card(
             child: ListTile(
               title: Text('Ideas'),
