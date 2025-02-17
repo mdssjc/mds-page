@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:mds_page/presentation/pages/widgets/home_card.dart';
-import 'package:mds_page/presentation/pages/widgets/news_card.dart';
+
+import 'widgets/home_card.dart';
+import 'widgets/news_card.dart';
 
 class MainPage extends StatelessWidget {
   const MainPage({super.key});
@@ -14,20 +15,15 @@ class MainPage extends StatelessWidget {
       color: Theme.of(context).colorScheme.onPrimary,
       child: GridView.count(
         crossAxisCount: width >= 600 ? 2 : 1,
+        childAspectRatio: width >= 600 ? width / 800 : 1,
         children: const [
           HomeCard(),
           NewsCard(),
           Card(
-            child: ListTile(
-              title: Text('Ideas'),
-              leading: Icon(Icons.home),
-            ),
+            child: ListTile(title: Text('Ideas'), leading: Icon(Icons.home)),
           ),
           Card(
-            child: ListTile(
-              title: Text('Projects'),
-              leading: Icon(Icons.home),
-            ),
+            child: ListTile(title: Text('Projects'), leading: Icon(Icons.home)),
           ),
         ],
       ),
